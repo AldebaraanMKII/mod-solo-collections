@@ -470447,6 +470447,190 @@
       "sourceId": 29248,
       "sourceKind": "item",
       "typeKey": "appearance"
+    },
+    {
+      "actionId": 0,
+      "actionKind": "",
+      "aliases": [
+        "itemset:201",
+        "variant:tier1"
+      ],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "collectionId": 300000,
+      "collectionKey": "set.arcanist_regalia",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Arcanist Regalia",
+        "zhCN": "奥术师套装"
+      },
+      "ordinal": 18499,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 201,
+      "sourceKind": "item_set",
+      "typeKey": "set"
+    },
+    {
+      "actionId": 0,
+      "actionKind": "",
+      "aliases": [
+        "itemset:203",
+        "variant:tier1"
+      ],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "collectionId": 300001,
+      "collectionKey": "set.felheart_raiment",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Felheart Raiment",
+        "zhCN": "恶魔之心套装"
+      },
+      "ordinal": 18500,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 203,
+      "sourceKind": "item_set",
+      "typeKey": "set"
+    },
+    {
+      "actionId": 0,
+      "actionKind": "",
+      "aliases": [
+        "itemset:204",
+        "variant:tier1"
+      ],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "collectionId": 300002,
+      "collectionKey": "set.nightslayer_armor",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Nightslayer Armor",
+        "zhCN": "夜幕杀手套装"
+      },
+      "ordinal": 18501,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 204,
+      "sourceKind": "item_set",
+      "typeKey": "set"
+    },
+    {
+      "actionId": 0,
+      "actionKind": "",
+      "aliases": [
+        "itemset:205",
+        "variant:tier1"
+      ],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "collectionId": 300003,
+      "collectionKey": "set.cenarion_raiment",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Cenarion Raiment",
+        "zhCN": "塞纳里奥套装"
+      },
+      "ordinal": 18502,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 205,
+      "sourceKind": "item_set",
+      "typeKey": "set"
+    },
+    {
+      "actionId": 0,
+      "actionKind": "",
+      "aliases": [
+        "itemset:206",
+        "variant:tier1"
+      ],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "collectionId": 300004,
+      "collectionKey": "set.giantstalker_armor",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Giantstalker Armor",
+        "zhCN": "巨人追猎者套装"
+      },
+      "ordinal": 18503,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 206,
+      "sourceKind": "item_set",
+      "typeKey": "set"
+    },
+    {
+      "actionId": 0,
+      "actionKind": "",
+      "aliases": [
+        "itemset:207",
+        "variant:tier1"
+      ],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "collectionId": 300005,
+      "collectionKey": "set.earthfury",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "The Earthfury",
+        "zhCN": "大地之怒套装"
+      },
+      "ordinal": 18504,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 207,
+      "sourceKind": "item_set",
+      "typeKey": "set"
+    },
+    {
+      "actionId": 0,
+      "actionKind": "",
+      "aliases": [
+        "itemset:208",
+        "variant:tier1"
+      ],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "collectionId": 300006,
+      "collectionKey": "set.lawbringer_armor",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Lawbringer Armor",
+        "zhCN": "秩序之源套装"
+      },
+      "ordinal": 18505,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 208,
+      "sourceKind": "item_set",
+      "typeKey": "set"
+    },
+    {
+      "actionId": 0,
+      "actionKind": "",
+      "aliases": [
+        "itemset:209",
+        "variant:tier1"
+      ],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "collectionId": 300007,
+      "collectionKey": "set.battlegear_of_might",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Battlegear of Might",
+        "zhCN": "力量套装"
+      },
+      "ordinal": 18506,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 209,
+      "sourceKind": "item_set",
+      "typeKey": "set"
     }
   ],
   "companionActions": {
@@ -470624,7 +470808,7 @@
     "schemaVersion": 1
   },
   "identityOverrides": [],
-  "mappingHash": "716a1ead18df72057749fc0e3b0461f74813b28bfe2def552ff13cd7e915aab5",
+  "mappingHash": "deddbe3a001411c5e293ff85c33ac284e317b9132456798449c54a0bb7eca762",
   "metadataVersion": "2026.07.20.2",
   "mountActions": {
     "candidateHash": "ba414a13d43783698251b283ccd3d19030560f44b3e3238931b83e1a73d0249e",
@@ -482220,7 +482404,7 @@
     "appearance": "ac32696a412e0667392840518e10f025bbd5de36311cd16d29c2f43518202e53",
     "companion": "e854b1b83a01f3f1672a0907099c5f912caab741bba304c2660c0ccbf0bb9efc",
     "mount": "6801854cfc6bd1107424d0910a66183bfee100f328d6f468d8a4007f8b7e54b9",
-    "set": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "set": "794d07e09ca6d4ac003d4d5e8847889768a8dec8c8fba2a8adfbd17ae6b91848",
     "synthetic": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "toy": "b7d2d5feecc85d98de6f97c12851938514d6020997ed62a40be80cfa007ecfb5"
   }
