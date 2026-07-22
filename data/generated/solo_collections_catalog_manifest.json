@@ -533020,6 +533020,116 @@
       "spellIconId": 4375,
       "typeKey": "companion",
       "uiLifecycle": "public"
+    },
+    {
+      "actionId": 47770,
+      "actionKind": "SPELL_SELF",
+      "aliases": [],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "catalogLifecycle": "ACTIVE",
+      "collectionId": 100486,
+      "collectionKey": "toy.decahedral_dwarven_dice",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Decahedral Dwarven Dice",
+        "zhCN": "矮人的十面骰子"
+      },
+      "ordinal": 18684,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 36863,
+      "sourceKind": "item",
+      "typeKey": "toy",
+      "uiLifecycle": "public"
+    },
+    {
+      "actionId": 48332,
+      "actionKind": "SPELL_SELF",
+      "aliases": [],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "catalogLifecycle": "ACTIVE",
+      "collectionId": 100487,
+      "collectionKey": "toy.super_simian_sphere",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Super Simian Sphere",
+        "zhCN": "超级猴子球"
+      },
+      "ordinal": 18685,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 37254,
+      "sourceKind": "item",
+      "typeKey": "toy",
+      "uiLifecycle": "public"
+    },
+    {
+      "actionId": 58501,
+      "actionKind": "SPELL_SELF",
+      "aliases": [],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "catalogLifecycle": "ACTIVE",
+      "collectionId": 100488,
+      "collectionKey": "toy.iron_boot_flask",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Iron Boot Flask",
+        "zhCN": "铁靴烈酒"
+      },
+      "ordinal": 18686,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 43499,
+      "sourceKind": "item",
+      "typeKey": "toy",
+      "uiLifecycle": "public"
+    },
+    {
+      "actionId": 60458,
+      "actionKind": "SPELL_SELF",
+      "aliases": [],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "catalogLifecycle": "ACTIVE",
+      "collectionId": 100489,
+      "collectionKey": "toy.titanium_seal_of_dalaran",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Titanium Seal of Dalaran",
+        "zhCN": "达拉然泰坦神铁徽记"
+      },
+      "ordinal": 18687,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 44430,
+      "sourceKind": "item",
+      "typeKey": "toy",
+      "uiLifecycle": "public"
+    },
+    {
+      "actionId": 73320,
+      "actionKind": "SPELL_SELF",
+      "aliases": [],
+      "assetProfile": "wotlk_native",
+      "assetReady": true,
+      "catalogLifecycle": "ACTIVE",
+      "collectionId": 100490,
+      "collectionKey": "toy.muradins_favor",
+      "lifecycle": "active",
+      "name": {
+        "enUS": "Muradin's Favor",
+        "zhCN": "穆拉丁的礼物"
+      },
+      "ordinal": 18688,
+      "policyKey": "unrestricted",
+      "sourceBuild": "3.3.5.12340",
+      "sourceId": 52201,
+      "sourceKind": "item",
+      "typeKey": "toy",
+      "uiLifecycle": "public"
     }
   ],
   "companionActions": {
@@ -535446,7 +535556,7 @@
     "displayCreatureId": "previewCreatureEntry"
   },
   "identityOverrides": [],
-  "mappingHash": "5c104b479934bd17a1eb7cf26fa64a9eb284d5a6b22c605d0a57b04e3df22ffd",
+  "mappingHash": "7685657b8a7a4d5e8e7c873c98fb793289151668231a2239c967424b960331d5",
   "metadataVersion": "2026.07.22.3",
   "mountActions": {
     "candidateHash": "ba414a13d43783698251b283ccd3d19030560f44b3e3238931b83e1a73d0249e",
@@ -546735,7 +546845,7 @@
   "presentationEvidenceHash": "2bdb261203a9377c14fdde676c5a1307a28fa96bd4a440712289b10fab003d91",
   "presentationEvidenceId": "round2-20260722-stage6-companions",
   "presentationEvidencePackHash": "d105efd20fd8ed64e94ad0a078f2fe3d37f1a62dcd1d1ef3381c2cec900d4e14",
-  "presentationHash": "65956b25d8326c52b67a070f7da8fed75fddb27a4c4cde4fa0340c7edc425705",
+  "presentationHash": "b4c3deef64713074030a0064cb779aab8c41fe23509e82a7fee190ea309992ea",
   "races": [
     {
       "aliases": [
@@ -547006,6 +547116,7 @@
         "accountCooldownMs": 0,
         "actionKind": "SPELL_SELF",
         "allowInCombat": false,
+        "catalogLifecycle": "ACTIVE",
         "collectionId": 100305,
         "collectionKey": "toy.orb_of_the_sindorei",
         "consumesMaterial": false,
@@ -547013,15 +547124,17 @@
         "customHandler": "",
         "itemId": 35275,
         "ordinal": 305,
-        "replayPolicy": "SC2_REQUEST_ID",
+        "replayPolicy": "REJECT_DUPLICATE",
         "riskFlags": [],
         "spellId": 46354,
-        "targetPolicy": "SELF"
+        "targetPolicy": "SELF",
+        "unlockSource": "ITEM_ACQUIRED"
       },
       {
         "accountCooldownMs": 0,
         "actionKind": "SPELL_TARGET",
         "allowInCombat": false,
+        "catalogLifecycle": "ACTIVE",
         "collectionId": 100306,
         "collectionKey": "toy.elunes_candle",
         "consumesMaterial": false,
@@ -547029,33 +547142,37 @@
         "customHandler": "",
         "itemId": 21713,
         "ordinal": 306,
-        "replayPolicy": "SC2_REQUEST_ID",
+        "replayPolicy": "REJECT_DUPLICATE",
         "riskFlags": [],
         "spellId": 26374,
-        "targetPolicy": "CURRENT_TARGET"
+        "targetPolicy": "REQUIRED_UNIT",
+        "unlockSource": "ITEM_ACQUIRED"
       },
       {
         "accountCooldownMs": 0,
         "actionKind": "ITEM_USE",
         "allowInCombat": false,
+        "catalogLifecycle": "ACTIVE",
         "collectionId": 100307,
         "collectionKey": "toy.fishing_chair",
         "consumesMaterial": false,
-        "cooldownScope": "CHARACTER",
+        "cooldownScope": "HANDLER_NATIVE",
         "customHandler": "",
         "itemId": 33223,
         "ordinal": 307,
-        "replayPolicy": "SC2_REQUEST_ID",
+        "replayPolicy": "REJECT_DUPLICATE",
         "riskFlags": [
-          "PERSISTENT_OBJECT"
+          "WORLD_OBJECT"
         ],
         "spellId": 42766,
-        "targetPolicy": "SELF"
+        "targetPolicy": "SELF",
+        "unlockSource": "ITEM_ACQUIRED"
       },
       {
         "accountCooldownMs": 5000,
         "actionKind": "CUSTOM_HANDLER",
         "allowInCombat": true,
+        "catalogLifecycle": "ACTIVE",
         "collectionId": 100308,
         "collectionKey": "toy.unusual_compass",
         "consumesMaterial": false,
@@ -547063,14 +547180,105 @@
         "customHandler": "unusual_compass",
         "itemId": 45984,
         "ordinal": 308,
-        "replayPolicy": "SC2_REQUEST_ID",
+        "replayPolicy": "REJECT_DUPLICATE",
         "riskFlags": [],
         "spellId": 64385,
-        "targetPolicy": "SELF"
+        "targetPolicy": "SELF",
+        "unlockSource": "ITEM_ACQUIRED"
+      },
+      {
+        "accountCooldownMs": 10000,
+        "actionKind": "SPELL_SELF",
+        "allowInCombat": false,
+        "catalogLifecycle": "ACTIVE",
+        "collectionId": 100486,
+        "collectionKey": "toy.decahedral_dwarven_dice",
+        "consumesMaterial": false,
+        "cooldownScope": "ACCOUNT",
+        "customHandler": "",
+        "itemId": 36863,
+        "ordinal": 18684,
+        "replayPolicy": "REJECT_DUPLICATE",
+        "riskFlags": [],
+        "spellId": 47770,
+        "targetPolicy": "SELF",
+        "unlockSource": "ITEM_ACQUIRED"
+      },
+      {
+        "accountCooldownMs": 3600000,
+        "actionKind": "SPELL_SELF",
+        "allowInCombat": false,
+        "catalogLifecycle": "ACTIVE",
+        "collectionId": 100487,
+        "collectionKey": "toy.super_simian_sphere",
+        "consumesMaterial": false,
+        "cooldownScope": "ACCOUNT",
+        "customHandler": "",
+        "itemId": 37254,
+        "ordinal": 18685,
+        "replayPolicy": "REJECT_DUPLICATE",
+        "riskFlags": [],
+        "spellId": 48332,
+        "targetPolicy": "SELF",
+        "unlockSource": "ITEM_ACQUIRED"
+      },
+      {
+        "accountCooldownMs": 3600000,
+        "actionKind": "SPELL_SELF",
+        "allowInCombat": false,
+        "catalogLifecycle": "ACTIVE",
+        "collectionId": 100488,
+        "collectionKey": "toy.iron_boot_flask",
+        "consumesMaterial": false,
+        "cooldownScope": "ACCOUNT",
+        "customHandler": "",
+        "itemId": 43499,
+        "ordinal": 18686,
+        "replayPolicy": "REJECT_DUPLICATE",
+        "riskFlags": [],
+        "spellId": 58501,
+        "targetPolicy": "SELF",
+        "unlockSource": "ITEM_ACQUIRED"
+      },
+      {
+        "accountCooldownMs": 10000,
+        "actionKind": "SPELL_SELF",
+        "allowInCombat": false,
+        "catalogLifecycle": "ACTIVE",
+        "collectionId": 100489,
+        "collectionKey": "toy.titanium_seal_of_dalaran",
+        "consumesMaterial": false,
+        "cooldownScope": "ACCOUNT",
+        "customHandler": "",
+        "itemId": 44430,
+        "ordinal": 18687,
+        "replayPolicy": "REJECT_DUPLICATE",
+        "riskFlags": [],
+        "spellId": 60458,
+        "targetPolicy": "SELF",
+        "unlockSource": "ITEM_ACQUIRED"
+      },
+      {
+        "accountCooldownMs": 1800000,
+        "actionKind": "SPELL_SELF",
+        "allowInCombat": false,
+        "catalogLifecycle": "ACTIVE",
+        "collectionId": 100490,
+        "collectionKey": "toy.muradins_favor",
+        "consumesMaterial": false,
+        "cooldownScope": "ACCOUNT",
+        "customHandler": "",
+        "itemId": 52201,
+        "ordinal": 18688,
+        "replayPolicy": "REJECT_DUPLICATE",
+        "riskFlags": [],
+        "spellId": 73320,
+        "targetPolicy": "SELF",
+        "unlockSource": "ITEM_ACQUIRED"
       }
     ],
-    "mappingHash": "05a5895e065332b50ffde6d9528299b308457b0549c9fb50554220a935f981d2",
-    "schemaVersion": 1
+    "mappingHash": "98391836f58b4583e8ca5fb080876dac58680f23f6ccf9e29fdc5686bc0b84ed",
+    "schemaVersion": 2
   },
   "typeMappingHashes": {
     "appearance": "7f6840da4984c4f0529b15e5480ab76f98a60890c2d6cb98a59e46cc70d56b2f",
@@ -547079,6 +547287,6 @@
     "set": "27908f2bd4672e0ad60e425707fa4cecd2a187cfd932f30d44ac335118de2712",
     "synthetic": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "title": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "toy": "0da04e31e07bf83c1495ff48a81a72ef07d133fb8a0d0d23efab9e07f09805f7"
+    "toy": "46bd85ff01542119f03cc752e9cd947bb697fd660110ca4b1c1132b3ffdbd54e"
   }
 }
