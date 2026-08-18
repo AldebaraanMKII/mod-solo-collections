@@ -1,3 +1,8 @@
+> **本仓库已归档。** 后续开发与 Release 请使用新仓库：  
+> **https://github.com/haha2345/SoloCollectionsPlatform**
+>
+> **This repository is archived.** Continued development and releases live at  
+> **https://github.com/haha2345/SoloCollectionsPlatform**
 # mod-solo-collections: AzerothCore backend for SoloCollections
 
 [中文](README.md) ·
